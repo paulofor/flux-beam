@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+fluxbeam:
+  wpp:
+    token: ${WPP_TOKEN}
+    phoneNumberId: ${PHONE_NUMBER_ID}
+    appSecret: ${APP_SECRET}
+  verifyToken: ${VERIFY_TOKEN:changeme}
